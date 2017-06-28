@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18AB8AF1F03CAF400A3D018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8AE1F03CAF400A3D018 /* main.m */; };
+		F18AB8B21F03CAF400A3D018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8B11F03CAF400A3D018 /* AppDelegate.m */; };
+		F18AB8B51F03CAF400A3D018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8B41F03CAF400A3D018 /* ViewController.m */; };
+		F18AB8B81F03CAF400A3D018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8B61F03CAF400A3D018 /* Main.storyboard */; };
+		F18AB8BA1F03CAF400A3D018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8B91F03CAF400A3D018 /* Assets.xcassets */; };
+		F18AB8BD1F03CAF400A3D018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8BB1F03CAF400A3D018 /* LaunchScreen.storyboard */; };
+		F18AB8C81F03CAF400A3D018 /* CDPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8C71F03CAF400A3D018 /* CDPhotoBrowserTests.m */; };
+		F18AB8D31F03CAF400A3D018 /* CDPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8D21F03CAF400A3D018 /* CDPhotoBrowserUITests.m */; };
+		F18AB8E11F03CB1A00A3D018 /* touchme.png in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8E01F03CB1A00A3D018 /* touchme.png */; };
+		F18AB8F01F03CCFD00A3D018 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8ED1F03CCFD00A3D018 /* Photo.m */; };
+		F18AB8F11F03CCFD00A3D018 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8EF1F03CCFD00A3D018 /* Video.m */; };
+		F18AB9001F03CD7400A3D018 /* UIBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8F31F03CD7400A3D018 /* UIBrowserCollectionViewCell.m */; };
+		F18AB9011F03CD7400A3D018 /* UIListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8F51F03CD7400A3D018 /* UIListCollectionViewCell.m */; };
+		F18AB9021F03CD7400A3D018 /* UIListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8F61F03CD7400A3D018 /* UIListCollectionViewCell.xib */; };
+		F18AB9031F03CD7400A3D018 /* UIPhotoTittleReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8F81F03CD7400A3D018 /* UIPhotoTittleReusableView.m */; };
+		F18AB9041F03CD7400A3D018 /* UIPhotoTittleReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8F91F03CD7400A3D018 /* UIPhotoTittleReusableView.xib */; };
+		F18AB9051F03CD7400A3D018 /* UIPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8FB1F03CD7400A3D018 /* UIPictureCollectionViewCell.m */; };
+		F18AB9061F03CD7400A3D018 /* UIPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8FC1F03CD7400A3D018 /* UIPictureCollectionViewCell.xib */; };
+		F18AB9071F03CD7400A3D018 /* UIVideoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB8FE1F03CD7400A3D018 /* UIVideoCollectionViewCell.m */; };
+		F18AB9081F03CD7400A3D018 /* UIVideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB8FF1F03CD7400A3D018 /* UIVideoCollectionViewCell.xib */; };
+		F18AB90F1F03CD8400A3D018 /* UIPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB90A1F03CD8400A3D018 /* UIPhotoBrowserViewController.m */; };
+		F18AB9101F03CD8400A3D018 /* UIPhotoBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB90B1F03CD8400A3D018 /* UIPhotoBrowserViewController.xib */; };
+		F18AB9111F03CD8400A3D018 /* UIPhotographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB90D1F03CD8400A3D018 /* UIPhotographViewController.m */; };
+		F18AB9121F03CD8400A3D018 /* UIPhotographViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18AB90E1F03CD8400A3D018 /* UIPhotographViewController.xib */; };
+		F18AB91D1F03CD8F00A3D018 /* UILineListFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB9141F03CD8F00A3D018 /* UILineListFlowLayout.m */; };
+		F18AB91E1F03CD8F00A3D018 /* UIPatialZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB9161F03CD8F00A3D018 /* UIPatialZoomImageView.m */; };
+		F18AB91F1F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB9181F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.m */; };
+		F18AB9201F03CD8F00A3D018 /* UIPhotoZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB91A1F03CD8F00A3D018 /* UIPhotoZoomScrollView.m */; };
+		F18AB9211F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB91C1F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18AB8C41F03CAF400A3D018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18AB8A21F03CAF400A3D018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18AB8A91F03CAF400A3D018;
+			remoteInfo = CDPhotoBrowser;
+		};
+		F18AB8CF1F03CAF400A3D018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18AB8A21F03CAF400A3D018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18AB8A91F03CAF400A3D018;
+			remoteInfo = CDPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18AB8AA1F03CAF400A3D018 /* CDPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AB8AE1F03CAF400A3D018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F18AB8B01F03CAF400A3D018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F18AB8B11F03CAF400A3D018 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F18AB8B31F03CAF400A3D018 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F18AB8B41F03CAF400A3D018 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F18AB8B71F03CAF400A3D018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18AB8B91F03CAF400A3D018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CDPhotoBrowser/Assets.xcassets; sourceTree = "<group>"; };
+		F18AB8BC1F03CAF400A3D018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F18AB8BE1F03CAF400A3D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AB8C31F03CAF400A3D018 /* CDPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AB8C71F03CAF400A3D018 /* CDPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CDPhotoBrowserTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F18AB8C91F03CAF400A3D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AB8CE1F03CAF400A3D018 /* CDPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18AB8D21F03CAF400A3D018 /* CDPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CDPhotoBrowserUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F18AB8D41F03CAF400A3D018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18AB8E01F03CB1A00A3D018 /* touchme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touchme.png; sourceTree = "<group>"; };
+		F18AB8EC1F03CCFD00A3D018 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = Models/Photo.h; sourceTree = "<group>"; };
+		F18AB8ED1F03CCFD00A3D018 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = Models/Photo.m; sourceTree = "<group>"; };
+		F18AB8EE1F03CCFD00A3D018 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Video.h; path = Models/Video.h; sourceTree = "<group>"; };
+		F18AB8EF1F03CCFD00A3D018 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Video.m; path = Models/Video.m; sourceTree = "<group>"; };
+		F18AB8F21F03CD7400A3D018 /* UIBrowserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBrowserCollectionViewCell.h; path = View/UIBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		F18AB8F31F03CD7400A3D018 /* UIBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBrowserCollectionViewCell.m; path = View/UIBrowserCollectionViewCell.m; sourceTree = "<group>"; };
+		F18AB8F41F03CD7400A3D018 /* UIListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIListCollectionViewCell.h; path = View/UIListCollectionViewCell.h; sourceTree = "<group>"; };
+		F18AB8F51F03CD7400A3D018 /* UIListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIListCollectionViewCell.m; path = View/UIListCollectionViewCell.m; sourceTree = "<group>"; };
+		F18AB8F61F03CD7400A3D018 /* UIListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIListCollectionViewCell.xib; path = View/UIListCollectionViewCell.xib; sourceTree = "<group>"; };
+		F18AB8F71F03CD7400A3D018 /* UIPhotoTittleReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPhotoTittleReusableView.h; path = View/UIPhotoTittleReusableView.h; sourceTree = "<group>"; };
+		F18AB8F81F03CD7400A3D018 /* UIPhotoTittleReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPhotoTittleReusableView.m; path = View/UIPhotoTittleReusableView.m; sourceTree = "<group>"; };
+		F18AB8F91F03CD7400A3D018 /* UIPhotoTittleReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIPhotoTittleReusableView.xib; path = View/UIPhotoTittleReusableView.xib; sourceTree = "<group>"; };
+		F18AB8FA1F03CD7400A3D018 /* UIPictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPictureCollectionViewCell.h; path = View/UIPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		F18AB8FB1F03CD7400A3D018 /* UIPictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPictureCollectionViewCell.m; path = View/UIPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		F18AB8FC1F03CD7400A3D018 /* UIPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIPictureCollectionViewCell.xib; path = View/UIPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		F18AB8FD1F03CD7400A3D018 /* UIVideoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIVideoCollectionViewCell.h; path = View/UIVideoCollectionViewCell.h; sourceTree = "<group>"; };
+		F18AB8FE1F03CD7400A3D018 /* UIVideoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIVideoCollectionViewCell.m; path = View/UIVideoCollectionViewCell.m; sourceTree = "<group>"; };
+		F18AB8FF1F03CD7400A3D018 /* UIVideoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIVideoCollectionViewCell.xib; path = View/UIVideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		F18AB9091F03CD8400A3D018 /* UIPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPhotoBrowserViewController.h; path = Controllers/UIPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		F18AB90A1F03CD8400A3D018 /* UIPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPhotoBrowserViewController.m; path = Controllers/UIPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		F18AB90B1F03CD8400A3D018 /* UIPhotoBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIPhotoBrowserViewController.xib; path = Controllers/UIPhotoBrowserViewController.xib; sourceTree = "<group>"; };
+		F18AB90C1F03CD8400A3D018 /* UIPhotographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPhotographViewController.h; path = Controllers/UIPhotographViewController.h; sourceTree = "<group>"; };
+		F18AB90D1F03CD8400A3D018 /* UIPhotographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPhotographViewController.m; path = Controllers/UIPhotographViewController.m; sourceTree = "<group>"; };
+		F18AB90E1F03CD8400A3D018 /* UIPhotographViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIPhotographViewController.xib; path = Controllers/UIPhotographViewController.xib; sourceTree = "<group>"; };
+		F18AB9131F03CD8F00A3D018 /* UILineListFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILineListFlowLayout.h; path = Tools/UILineListFlowLayout.h; sourceTree = "<group>"; };
+		F18AB9141F03CD8F00A3D018 /* UILineListFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UILineListFlowLayout.m; path = Tools/UILineListFlowLayout.m; sourceTree = "<group>"; };
+		F18AB9151F03CD8F00A3D018 /* UIPatialZoomImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPatialZoomImageView.h; path = Tools/UIPatialZoomImageView.h; sourceTree = "<group>"; };
+		F18AB9161F03CD8F00A3D018 /* UIPatialZoomImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPatialZoomImageView.m; path = Tools/UIPatialZoomImageView.m; sourceTree = "<group>"; };
+		F18AB9171F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPhotoBrowserFlowLayout.h; path = Tools/UIPhotoBrowserFlowLayout.h; sourceTree = "<group>"; };
+		F18AB9181F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPhotoBrowserFlowLayout.m; path = Tools/UIPhotoBrowserFlowLayout.m; sourceTree = "<group>"; };
+		F18AB9191F03CD8F00A3D018 /* UIPhotoZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPhotoZoomScrollView.h; path = Tools/UIPhotoZoomScrollView.h; sourceTree = "<group>"; };
+		F18AB91A1F03CD8F00A3D018 /* UIPhotoZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPhotoZoomScrollView.m; path = Tools/UIPhotoZoomScrollView.m; sourceTree = "<group>"; };
+		F18AB91B1F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UISuspendHeaderFlowLayout.h; path = Tools/UISuspendHeaderFlowLayout.h; sourceTree = "<group>"; };
+		F18AB91C1F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UISuspendHeaderFlowLayout.m; path = Tools/UISuspendHeaderFlowLayout.m; sourceTree = "<group>"; };
+		F18AB9231F03D03300A3D018 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18AB8A71F03CAF400A3D018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8C01F03CAF400A3D018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8CB1F03CAF400A3D018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18AB8A11F03CAF400A3D018 = {
+			isa = PBXGroup;
+			children = (
+				F18AB8AC1F03CAF400A3D018 /* CDPhotoBrowser */,
+				F18AB8B91F03CAF400A3D018 /* Assets.xcassets */,
+				F18AB8C61F03CAF400A3D018 /* CDPhotoBrowserTests */,
+				F18AB8D11F03CAF400A3D018 /* CDPhotoBrowserUITests */,
+				F18AB8AB1F03CAF400A3D018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18AB8AB1F03CAF400A3D018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8AA1F03CAF400A3D018 /* CDPhotoBrowser.app */,
+				F18AB8C31F03CAF400A3D018 /* CDPhotoBrowserTests.xctest */,
+				F18AB8CE1F03CAF400A3D018 /* CDPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18AB8AC1F03CAF400A3D018 /* CDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8B01F03CAF400A3D018 /* AppDelegate.h */,
+				F18AB8B11F03CAF400A3D018 /* AppDelegate.m */,
+				F18AB8B31F03CAF400A3D018 /* ViewController.h */,
+				F18AB8B41F03CAF400A3D018 /* ViewController.m */,
+				F18AB8B61F03CAF400A3D018 /* Main.storyboard */,
+				F18AB8E51F03CC9A00A3D018 /* Models */,
+				F18AB8E41F03CC7300A3D018 /* Views */,
+				F18AB8E21F03CC5E00A3D018 /* Controllers */,
+				F18AB8E31F03CC6800A3D018 /* Tools */,
+				F18AB8BB1F03CAF400A3D018 /* LaunchScreen.storyboard */,
+				F18AB8BE1F03CAF400A3D018 /* Info.plist */,
+				F18AB8AD1F03CAF400A3D018 /* Supporting Files */,
+			);
+			path = CDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		F18AB8AD1F03CAF400A3D018 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8E01F03CB1A00A3D018 /* touchme.png */,
+				F18AB8AE1F03CAF400A3D018 /* main.m */,
+				F18AB9231F03D03300A3D018 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18AB8C61F03CAF400A3D018 /* CDPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8C71F03CAF400A3D018 /* CDPhotoBrowserTests.m */,
+				F18AB8C91F03CAF400A3D018 /* Info.plist */,
+			);
+			path = CDPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		F18AB8D11F03CAF400A3D018 /* CDPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8D21F03CAF400A3D018 /* CDPhotoBrowserUITests.m */,
+				F18AB8D41F03CAF400A3D018 /* Info.plist */,
+			);
+			path = CDPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		F18AB8E21F03CC5E00A3D018 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB90C1F03CD8400A3D018 /* UIPhotographViewController.h */,
+				F18AB90D1F03CD8400A3D018 /* UIPhotographViewController.m */,
+				F18AB90E1F03CD8400A3D018 /* UIPhotographViewController.xib */,
+				F18AB9091F03CD8400A3D018 /* UIPhotoBrowserViewController.h */,
+				F18AB90A1F03CD8400A3D018 /* UIPhotoBrowserViewController.m */,
+				F18AB90B1F03CD8400A3D018 /* UIPhotoBrowserViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F18AB8E31F03CC6800A3D018 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB9131F03CD8F00A3D018 /* UILineListFlowLayout.h */,
+				F18AB9141F03CD8F00A3D018 /* UILineListFlowLayout.m */,
+				F18AB9151F03CD8F00A3D018 /* UIPatialZoomImageView.h */,
+				F18AB9161F03CD8F00A3D018 /* UIPatialZoomImageView.m */,
+				F18AB9171F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.h */,
+				F18AB9181F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.m */,
+				F18AB9191F03CD8F00A3D018 /* UIPhotoZoomScrollView.h */,
+				F18AB91A1F03CD8F00A3D018 /* UIPhotoZoomScrollView.m */,
+				F18AB91B1F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.h */,
+				F18AB91C1F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F18AB8E41F03CC7300A3D018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8F21F03CD7400A3D018 /* UIBrowserCollectionViewCell.h */,
+				F18AB8F31F03CD7400A3D018 /* UIBrowserCollectionViewCell.m */,
+				F18AB8F41F03CD7400A3D018 /* UIListCollectionViewCell.h */,
+				F18AB8F51F03CD7400A3D018 /* UIListCollectionViewCell.m */,
+				F18AB8F61F03CD7400A3D018 /* UIListCollectionViewCell.xib */,
+				F18AB8F71F03CD7400A3D018 /* UIPhotoTittleReusableView.h */,
+				F18AB8F81F03CD7400A3D018 /* UIPhotoTittleReusableView.m */,
+				F18AB8F91F03CD7400A3D018 /* UIPhotoTittleReusableView.xib */,
+				F18AB8FA1F03CD7400A3D018 /* UIPictureCollectionViewCell.h */,
+				F18AB8FB1F03CD7400A3D018 /* UIPictureCollectionViewCell.m */,
+				F18AB8FC1F03CD7400A3D018 /* UIPictureCollectionViewCell.xib */,
+				F18AB8FD1F03CD7400A3D018 /* UIVideoCollectionViewCell.h */,
+				F18AB8FE1F03CD7400A3D018 /* UIVideoCollectionViewCell.m */,
+				F18AB8FF1F03CD7400A3D018 /* UIVideoCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F18AB8E51F03CC9A00A3D018 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F18AB8EC1F03CCFD00A3D018 /* Photo.h */,
+				F18AB8ED1F03CCFD00A3D018 /* Photo.m */,
+				F18AB8EE1F03CCFD00A3D018 /* Video.h */,
+				F18AB8EF1F03CCFD00A3D018 /* Video.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18AB8A91F03CAF400A3D018 /* CDPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AB8D71F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowser" */;
+			buildPhases = (
+				F18AB8A61F03CAF400A3D018 /* Sources */,
+				F18AB8A71F03CAF400A3D018 /* Frameworks */,
+				F18AB8A81F03CAF400A3D018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDPhotoBrowser;
+			productName = CDPhotoBrowser;
+			productReference = F18AB8AA1F03CAF400A3D018 /* CDPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18AB8C21F03CAF400A3D018 /* CDPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AB8DA1F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowserTests" */;
+			buildPhases = (
+				F18AB8BF1F03CAF400A3D018 /* Sources */,
+				F18AB8C01F03CAF400A3D018 /* Frameworks */,
+				F18AB8C11F03CAF400A3D018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18AB8C51F03CAF400A3D018 /* PBXTargetDependency */,
+			);
+			name = CDPhotoBrowserTests;
+			productName = CDPhotoBrowserTests;
+			productReference = F18AB8C31F03CAF400A3D018 /* CDPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F18AB8CD1F03CAF400A3D018 /* CDPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18AB8DD1F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowserUITests" */;
+			buildPhases = (
+				F18AB8CA1F03CAF400A3D018 /* Sources */,
+				F18AB8CB1F03CAF400A3D018 /* Frameworks */,
+				F18AB8CC1F03CAF400A3D018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18AB8D01F03CAF400A3D018 /* PBXTargetDependency */,
+			);
+			name = CDPhotoBrowserUITests;
+			productName = CDPhotoBrowserUITests;
+			productReference = F18AB8CE1F03CAF400A3D018 /* CDPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18AB8A21F03CAF400A3D018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ChangDao;
+				TargetAttributes = {
+					F18AB8A91F03CAF400A3D018 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Manual;
+					};
+					F18AB8C21F03CAF400A3D018 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18AB8A91F03CAF400A3D018;
+					};
+					F18AB8CD1F03CAF400A3D018 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F18AB8A91F03CAF400A3D018;
+					};
+				};
+			};
+			buildConfigurationList = F18AB8A51F03CAF400A3D018 /* Build configuration list for PBXProject "CDPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18AB8A11F03CAF400A3D018;
+			productRefGroup = F18AB8AB1F03CAF400A3D018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18AB8A91F03CAF400A3D018 /* CDPhotoBrowser */,
+				F18AB8C21F03CAF400A3D018 /* CDPhotoBrowserTests */,
+				F18AB8CD1F03CAF400A3D018 /* CDPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18AB8A81F03CAF400A3D018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AB9041F03CD7400A3D018 /* UIPhotoTittleReusableView.xib in Resources */,
+				F18AB8BD1F03CAF400A3D018 /* LaunchScreen.storyboard in Resources */,
+				F18AB9081F03CD7400A3D018 /* UIVideoCollectionViewCell.xib in Resources */,
+				F18AB8BA1F03CAF400A3D018 /* Assets.xcassets in Resources */,
+				F18AB9021F03CD7400A3D018 /* UIListCollectionViewCell.xib in Resources */,
+				F18AB9061F03CD7400A3D018 /* UIPictureCollectionViewCell.xib in Resources */,
+				F18AB9121F03CD8400A3D018 /* UIPhotographViewController.xib in Resources */,
+				F18AB9101F03CD8400A3D018 /* UIPhotoBrowserViewController.xib in Resources */,
+				F18AB8B81F03CAF400A3D018 /* Main.storyboard in Resources */,
+				F18AB8E11F03CB1A00A3D018 /* touchme.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8C11F03CAF400A3D018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8CC1F03CAF400A3D018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18AB8A61F03CAF400A3D018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AB91E1F03CD8F00A3D018 /* UIPatialZoomImageView.m in Sources */,
+				F18AB8F01F03CCFD00A3D018 /* Photo.m in Sources */,
+				F18AB9001F03CD7400A3D018 /* UIBrowserCollectionViewCell.m in Sources */,
+				F18AB91D1F03CD8F00A3D018 /* UILineListFlowLayout.m in Sources */,
+				F18AB9031F03CD7400A3D018 /* UIPhotoTittleReusableView.m in Sources */,
+				F18AB90F1F03CD8400A3D018 /* UIPhotoBrowserViewController.m in Sources */,
+				F18AB9111F03CD8400A3D018 /* UIPhotographViewController.m in Sources */,
+				F18AB8B51F03CAF400A3D018 /* ViewController.m in Sources */,
+				F18AB8B21F03CAF400A3D018 /* AppDelegate.m in Sources */,
+				F18AB9201F03CD8F00A3D018 /* UIPhotoZoomScrollView.m in Sources */,
+				F18AB8F11F03CCFD00A3D018 /* Video.m in Sources */,
+				F18AB9071F03CD7400A3D018 /* UIVideoCollectionViewCell.m in Sources */,
+				F18AB9011F03CD7400A3D018 /* UIListCollectionViewCell.m in Sources */,
+				F18AB8AF1F03CAF400A3D018 /* main.m in Sources */,
+				F18AB91F1F03CD8F00A3D018 /* UIPhotoBrowserFlowLayout.m in Sources */,
+				F18AB9051F03CD7400A3D018 /* UIPictureCollectionViewCell.m in Sources */,
+				F18AB9211F03CD8F00A3D018 /* UISuspendHeaderFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8BF1F03CAF400A3D018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AB8C81F03CAF400A3D018 /* CDPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18AB8CA1F03CAF400A3D018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18AB8D31F03CAF400A3D018 /* CDPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18AB8C51F03CAF400A3D018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18AB8A91F03CAF400A3D018 /* CDPhotoBrowser */;
+			targetProxy = F18AB8C41F03CAF400A3D018 /* PBXContainerItemProxy */;
+		};
+		F18AB8D01F03CAF400A3D018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18AB8A91F03CAF400A3D018 /* CDPhotoBrowser */;
+			targetProxy = F18AB8CF1F03CAF400A3D018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18AB8B61F03CAF400A3D018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18AB8B71F03CAF400A3D018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18AB8BB1F03CAF400A3D018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18AB8BC1F03CAF400A3D018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18AB8D51F03CAF400A3D018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F18AB8D61F03CAF400A3D018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18AB8D81F03CAF400A3D018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = CDPhotoBrowser/PrefixHeader.pch;
+				INFOPLIST_FILE = CDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		F18AB8D91F03CAF400A3D018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = CDPhotoBrowser/PrefixHeader.pch;
+				INFOPLIST_FILE = CDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		F18AB8DB1F03CAF400A3D018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPhotoBrowser.app/CDPhotoBrowser";
+			};
+			name = Debug;
+		};
+		F18AB8DC1F03CAF400A3D018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDPhotoBrowser.app/CDPhotoBrowser";
+			};
+			name = Release;
+		};
+		F18AB8DE1F03CAF400A3D018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDPhotoBrowser;
+			};
+			name = Debug;
+		};
+		F18AB8DF1F03CAF400A3D018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChangDao.CDPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18AB8A51F03CAF400A3D018 /* Build configuration list for PBXProject "CDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AB8D51F03CAF400A3D018 /* Debug */,
+				F18AB8D61F03CAF400A3D018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AB8D71F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AB8D81F03CAF400A3D018 /* Debug */,
+				F18AB8D91F03CAF400A3D018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AB8DA1F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AB8DB1F03CAF400A3D018 /* Debug */,
+				F18AB8DC1F03CAF400A3D018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18AB8DD1F03CAF400A3D018 /* Build configuration list for PBXNativeTarget "CDPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AB8DE1F03CAF400A3D018 /* Debug */,
+				F18AB8DF1F03CAF400A3D018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18AB8A21F03CAF400A3D018 /* Project object */;
+}
